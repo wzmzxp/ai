@@ -56,12 +56,12 @@ for kk=1:repeat
 %     optimalSolution=optimalSolution-first_optimalSolution_mean;
     
     [~,index_sort]=sort(funcV);
-    optimalSolution=optimalSolution(index_sort,:);
+    optimalSolution=optimalSolution(1:index_sort,:);
     prefix_optimalSolution =optimalSolution(1:ceil(alfa*optimalNum),:);
     first_prefix_optimalSolution_mean=1/(ceil(alfa*optimalNum)).*(sum(prefix_optimalSolution));
     first_prefix_optimalSolution_covv=cov(prefix_optimalSolution);
     covv=first_prefix_optimalSolution_covv;
-    mea=first_prefix_optimalSolution_mean;
+    prefix_optimalSolution_mean=first_prefix_optimalSolution_mean;
 %     covv=cov(prefix_optimalSolution);
 %     covv=diag(covv);
     while w<=maxFE   % M iteration begin
@@ -72,11 +72,7 @@ for kk=1:repeat
                 %上一代的协方差
                 precovv=covv;
                 %上一代均值
-                premean=mea;
-                
-                prefix_optimalSolution=prefix_optimalSolution-premean;
-                covv=cov(prefix_optimalSolution);
-                
+                premean
                 for g=1:group
                     while 1
                         change_flag=0; % op_solution更新判断标志
@@ -141,10 +137,9 @@ for kk=1:repeat
         
         csigma = ones(1,DIM)*(sigma);
 %         covv = diag(csigma.^2);
-%       covv=cov(optimalSolution);
+      covv=cov(optimalSolution);
         %求前alfa%的均值
-        covv=cov(prefix_optimalSolution);
-        mea=1/(ceil(alfa*optimalNum)).*(sum(prefix_optimalSolution));
+%         covv=cov(prefix_optimalSolution);
 %         covv=diag(covv);
         if w>maxFE
             break;

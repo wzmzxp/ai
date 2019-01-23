@@ -17,7 +17,7 @@ Xmin=[-100 -5 -5.12 -5.12 -10 -32 -10 -5 -5.12 0 -500 -65.536 -100 -1 -100 -5.12
 Xmax=[100  10  5.12  5.12  10  32   10 10 5.12 10 500 65.536   100 1 100 5.12 10 32 10 500 0.5 10 0.5 100];
 M=orthm_generator(D);
 iter_max=10000*D; %最大迭代次数
-runs=10; %重复次数
+runs=2; %重复次数
 funcnum=length(Xmin); %测试到第几个函数
 
 Algstr={'mqhao_with_subgroup1'};
@@ -48,6 +48,7 @@ for Algnum=[1];  %选取使用的测试算法(上表)
             %                 xbest(i,:)=gbest;
             fbest(i,j)=gbestval;
             FESM(i,j)=FES;
+            
             fprintf('Algorithm=%s,Fuc= f%d,  No. %d run, DIM=%d, Global minimum=%e. FE=%d, time=%d\n',namea,i,j,D,fbest(i,j),FES,toc);
             %                 fprintf('Xmin=%d,  Xmax= %d \n',Xmin(i),Xmax(i)); %显示当前边界
             %                 fprintf(fp,'Fuc= %d,  No. %d run, DIM=%d, Global minimum=%e. FE=%d, time=%d\r\n',i,j,D,fbest(i,j),FES,toc);
