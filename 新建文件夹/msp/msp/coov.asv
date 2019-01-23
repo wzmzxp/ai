@@ -1,0 +1,30 @@
+function [covv]=coov(matrix,mea)
+    
+    if nargin==0 
+        mea=0;
+    end
+    [row,col]=size(matrix);
+    covv=zeros(col,col);
+     for i=1:col
+         for j=1:col
+            
+         end
+     end
+%     for i=1:col
+%         for j=1:col
+%             
+%             
+%             if mea==0
+%             if i~=j
+%                  covv(i,j) =sum((matrix(:,i)-mean(matrix(:,i))).*(matrix(:,j)-mean(matrix(:,j))))/(size(matrix,1)-1);
+%                   
+%             
+%             end
+%             end
+%             if mea~=0
+%              if covv(i,i)=std(matrix(:,i))^2;
+%              end
+%             end
+%           end
+%     end
+end

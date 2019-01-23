@@ -1,0 +1,119 @@
+Algorithm=mqhao_with_subgroup1,Fuc= f1,  No. 1 run, DIM=30, Global minimum=0.000000e+00. FE=300038, time=1.314832e+01
+Algorithm=mqhao_with_subgroup1,Fuc= f1,  No. 2 run, DIM=30, Global minimum=0.000000e+00. FE=300008, time=4.148812e+00
+---------------------------------------------------------------
+MeanValue=0.00e+00, BestValue=0.00e+00, Std=0.00e+00,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f2,  No. 1 run, DIM=30, Global minimum=4.425548e-02. FE=300216, time=3.701649e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f2,  No. 2 run, DIM=30, Global minimum=7.254102e-09. FE=300318, time=3.613317e+00
+---------------------------------------------------------------
+MeanValue=2.21e-02, BestValue=7.25e-09, Std=3.13e-02,sr=5.000000e-01 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f3,  No. 1 run, DIM=30, Global minimum=9.171891e-181. FE=300114, time=3.723673e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f3,  No. 2 run, DIM=30, Global minimum=9.665934e-181. FE=300167, time=3.696024e+00
+---------------------------------------------------------------
+MeanValue=9.42e-181, BestValue=9.17e-181, Std=0.00e+00,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f4,  No. 1 run, DIM=30, Global minimum=1.530405e+02. FE=300001, time=4.192690e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f4,  No. 2 run, DIM=30, Global minimum=1.523333e+02. FE=300025, time=4.213687e+00
+---------------------------------------------------------------
+MeanValue=1.53e+02, BestValue=1.52e+02, Std=5.00e-01,sr=0.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f5,  No. 1 run, DIM=30, Global minimum=6.666667e-01. FE=300011, time=3.741152e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f5,  No. 2 run, DIM=30, Global minimum=6.666667e-01. FE=300057, time=3.710875e+00
+---------------------------------------------------------------
+MeanValue=6.67e-01, BestValue=6.67e-01, Std=1.18e-15,sr=0.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f6,  No. 1 run, DIM=30, Global minimum=4.440892e-15. FE=300005, time=3.996064e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f6,  No. 2 run, DIM=30, Global minimum=4.440892e-15. FE=300026, time=3.956414e+00
+---------------------------------------------------------------
+MeanValue=4.44e-15, BestValue=4.44e-15, Std=0.00e+00,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f7,  No. 1 run, DIM=30, Global minimum=1.499760e-32. FE=300023, time=8.359873e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f7,  No. 2 run, DIM=30, Global minimum=2.122128e-31. FE=300012, time=8.443680e+00
+---------------------------------------------------------------
+MeanValue=1.14e-31, BestValue=1.50e-32, Std=1.39e-31,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f8,  No. 1 run, DIM=30, Global minimum=5.291372e-43. FE=300039, time=3.923326e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f8,  No. 2 run, DIM=30, Global minimum=1.503889e-44. FE=300039, time=4.500752e+00
+---------------------------------------------------------------
+MeanValue=2.72e-43, BestValue=1.50e-44, Std=3.64e-43,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f9,  No. 1 run, DIM=30, Global minimum=2.178159e-37. FE=300123, time=4.370778e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f9,  No. 2 run, DIM=30, Global minimum=2.976805e-37. FE=300061, time=3.865204e+00
+---------------------------------------------------------------
+MeanValue=2.58e-37, BestValue=2.18e-37, Std=5.65e-38,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f10,  No. 1 run, DIM=30, Global minimum=5.058815e-06. FE=300045, time=3.918268e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f10,  No. 2 run, DIM=30, Global minimum=8.477855e-04. FE=300191, time=4.037875e+00
+---------------------------------------------------------------
+MeanValue=4.26e-04, BestValue=5.06e-06, Std=5.96e-04,sr=5.000000e-01 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f11,  No. 1 run, DIM=30, Global minimum=8.053381e+03. FE=300005, time=4.368559e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f11,  No. 2 run, DIM=30, Global minimum=8.029469e+03. FE=300024, time=4.330299e+00
+---------------------------------------------------------------
+MeanValue=8.04e+03, BestValue=8.03e+03, Std=1.69e+01,sr=0.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f12,  No. 1 run, DIM=30, Global minimum=1.762888e-175. FE=300114, time=4.205069e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f12,  No. 2 run, DIM=30, Global minimum=3.384657e-178. FE=300096, time=5.459737e+00
+---------------------------------------------------------------
+MeanValue=8.83e-176, BestValue=3.38e-178, Std=0.00e+00,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f13,  No. 1 run, DIM=30, Global minimum=5.033919e-29. FE=300029, time=4.996530e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f13,  No. 2 run, DIM=30, Global minimum=4.437343e-29. FE=300007, time=3.980057e+00
+---------------------------------------------------------------
+MeanValue=4.74e-29, BestValue=4.44e-29, Std=4.22e-30,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f14,  No. 1 run, DIM=30, Global minimum=4.345298e-11. FE=300038, time=5.954147e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f14,  No. 2 run, DIM=30, Global minimum=1.171504e-11. FE=300031, time=5.614306e+00
+---------------------------------------------------------------
+MeanValue=2.76e-11, BestValue=1.17e-11, Std=2.24e-11,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f15,  No. 1 run, DIM=30, Global minimum=0.000000e+00. FE=300022, time=4.658272e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f15,  No. 2 run, DIM=30, Global minimum=0.000000e+00. FE=300045, time=5.130395e+00
+---------------------------------------------------------------
+MeanValue=0.00e+00, BestValue=0.00e+00, Std=0.00e+00,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f16,  No. 1 run, DIM=30, Global minimum=1.588358e+02. FE=300007, time=5.015881e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f16,  No. 2 run, DIM=30, Global minimum=1.541363e+02. FE=300011, time=4.910442e+00
+---------------------------------------------------------------
+MeanValue=1.56e+02, BestValue=1.54e+02, Std=3.32e+00,sr=0.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f17,  No. 1 run, DIM=30, Global minimum=6.666667e-01. FE=300015, time=4.303876e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f17,  No. 2 run, DIM=30, Global minimum=6.666667e-01. FE=300058, time=4.584106e+00
+---------------------------------------------------------------
+MeanValue=6.67e-01, BestValue=6.67e-01, Std=1.26e-15,sr=0.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f18,  No. 1 run, DIM=30, Global minimum=4.440892e-15. FE=300040, time=4.523526e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f18,  No. 2 run, DIM=30, Global minimum=4.440892e-15. FE=300029, time=4.519830e+00
+---------------------------------------------------------------
+MeanValue=4.44e-15, BestValue=4.44e-15, Std=0.00e+00,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f19,  No. 1 run, DIM=30, Global minimum=9.094320e-31. FE=300041, time=9.888805e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f19,  No. 2 run, DIM=30, Global minimum=6.619178e-31. FE=300044, time=9.367242e+00
+---------------------------------------------------------------
+MeanValue=7.86e-31, BestValue=6.62e-31, Std=1.75e-31,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f20,  No. 1 run, DIM=30, Global minimum=7.192975e+03. FE=300014, time=4.944889e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f20,  No. 2 run, DIM=30, Global minimum=6.089068e+03. FE=300002, time=4.894578e+00
+---------------------------------------------------------------
+MeanValue=6.64e+03, BestValue=6.09e+03, Std=7.81e+02,sr=0.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f21,  No. 1 run, DIM=30, Global minimum=4.659954e-04. FE=300004, time=9.310777e+01
+Algorithm=mqhao_with_subgroup1,Fuc= f21,  No. 2 run, DIM=30, Global minimum=8.950273e-01. FE=300008, time=9.288492e+01
+---------------------------------------------------------------
+MeanValue=4.48e-01, BestValue=4.66e-04, Std=6.33e-01,sr=0.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f22,  No. 1 run, DIM=30, Global minimum=4.221480e-15. FE=300044, time=6.880303e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f22,  No. 2 run, DIM=30, Global minimum=7.448530e-13. FE=300025, time=9.362893e+00
+---------------------------------------------------------------
+MeanValue=3.75e-13, BestValue=4.22e-15, Std=5.24e-13,sr=1.000000e+00 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f23,  No. 1 run, DIM=30, Global minimum=5.498320e-01. FE=300025, time=9.303426e+01
+Algorithm=mqhao_with_subgroup1,Fuc= f23,  No. 2 run, DIM=30, Global minimum=0.000000e+00. FE=300040, time=8.957221e+01
+---------------------------------------------------------------
+MeanValue=2.75e-01, BestValue=0.00e+00, Std=3.89e-01,sr=5.000000e-01 
+
+Algorithm=mqhao_with_subgroup1,Fuc= f24,  No. 1 run, DIM=30, Global minimum=3.210753e-24. FE=300146, time=5.562564e+00
+Algorithm=mqhao_with_subgroup1,Fuc= f24,  No. 2 run, DIM=30, Global minimum=2.385557e-25. FE=300009, time=5.678428e+00
+---------------------------------------------------------------
+MeanValue=1.72e-24, BestValue=2.39e-25, Std=2.10e-24,sr=1.000000e+00 
