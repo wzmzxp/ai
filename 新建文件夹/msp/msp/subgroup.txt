@@ -105,3 +105,5 @@ Alg=1,MeanValue=4.48e-01, BestValue=4.66e-04, Std=6.33e-01,sr=0.000000e+00
 Alg=1,MeanValue=3.75e-13, BestValue=4.22e-15, Std=5.24e-13,sr=1.000000e+00 
 Alg=1,MeanValue=2.75e-01, BestValue=0.00e+00, Std=3.89e-01,sr=5.000000e-01 
 Alg=1,MeanValue=1.72e-24, BestValue=2.39e-25, Std=2.10e-24,sr=1.000000e+00 
+Alg=1,MeanValue=1.62e+00, BestValue=1.57e+00, Std=7.75e-02,sr=0.000000e+00 
+Alg=1,MeanValue=5.00e+04, BestValue=4.81e+04, Std=2.73e+03,sr=0.000000e+00 

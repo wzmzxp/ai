@@ -16,5 +16,5 @@ function [covv]=coov(matrix,mea)
              end
          end
      end
-     covv= roundn(covv,-4)  ;
+%      covv= roundn(covv,-4)  ;
 end

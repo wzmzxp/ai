@@ -130,7 +130,8 @@ for kk=1:repeat
             mea=mean(prefix_optimalSolution);
             %计算prefix_optimalSolution协方差，使用上一次的均值计算
             covv=coov(prefix_optimalSolution);
-            covv = diag(csigma.^2);
+            covv= (covv + covv.') / 2;
+%             covv = diag(csigma.^2);
 %             eig(covv)
             %------均值替换
             if w>maxFE
