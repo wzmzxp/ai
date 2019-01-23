@@ -127,12 +127,22 @@ for kk=1:repeat
              [~,index1]=sort(funcV);
             prefix_optimalSolution =optimalSolution( index1(1:ceil(alfa*optimalNum)),:);
             %计算本代均值，供下次计算方差使用
-            mea=mean(prefix_optimalSolution);
+            mea=mean(optimalSolution );
             %计算prefix_optimalSolution协方差，使用上一次的均值计算
-            covv=coov(prefix_optimalSolution);
-            covv= (covv + covv.') / 2;
+            covv=coov(prefix_optimalSolution,premean);
+            % If Covariance Matrix is not Positive Defenite or Near Singular
+            [V, E]=eig(covv);
+            if any(diag(E)<0)
+                E=max(E,0);
+                covv=V*E/V;
+            end
+
+%             if eig(covv)<0
+%             covv= covv+0.0001 *eye(30);
 %             covv = diag(csigma.^2);
-%             eig(covv)
+%             if size(find((eig(covv)<0)==1))~=0
+%                 covv=cov(prefix_optimalSolution);
+%             end
             %------均值替换
             if w>maxFE
                 break;
